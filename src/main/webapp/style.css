@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+html {
+	font-size: 30;
+	font-style: bold;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-image: linear-gradient(to right bottom, #E2DFEC , #B3A3DD , #8B76C4 , #644CA5 , #3A1D89  );
+}
+
+.button {
+	background: linear-gradient(#F47235 , #ECB398);
+	font-size: 30px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.center {
+	position: absolute;
+	top:40%;
+	left:40%;
+}
+
+
+
