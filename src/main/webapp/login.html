@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Log In</title>
-
-<link rel="stylesheet" href="style.css"/>
-
+    <title>Login</title>
 </head>
 <body>
-
-<form method="post" action="LoginServlet">
-	Name: <input name="nameField" type="text"/>
-	Password: <input name="passwordField" type="password"/>
-	<input type="submit" value="submit"/>
-	
-</form>
-
-
+    <form action="login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
